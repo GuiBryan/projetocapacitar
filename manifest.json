@@ -1,0 +1,37 @@
+{
+  "name": "Controle de Treinamentos IOPS",
+  "short_name": "Treinamentos",
+  "description": "Controle de treinamentos das IOPs criticas do Porto de Sao Francisco do Sul.",
+  "id": "/controle-treinamentos/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#243F5E",
+  "theme_color": "#243F5E",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["productivity", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Matriz Geral",
+      "short_name": "Matriz",
+      "description": "Abrir a matriz completa de treinamentos",
+      "url": "./index.html?view=matriz",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Outros Treinamentos",
+      "short_name": "Treinamentos",
+      "description": "NRs e treinamentos internos",
+      "url": "./index.html?view=trein",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
